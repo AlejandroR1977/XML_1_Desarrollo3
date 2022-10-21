@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Documento 1
+<?xml version="1.0"?>
+<documento>
+<p>Mi Primer <destacar 
+importancia=1>documento
+XML</destacar></p]
+<p>Comienza con la etiqueta
+<documento&gt;</p>
+<p>A continuacion colocamos un 
+elemento sin contenido
+</p><imagen fichero="imagen.gif">
+</documento>
+___________________________________________________________________________________________________
+El valor de los atributos debe ir entre comillas. <destacar importancia="1">***                    │
+Las etiquetas deben cerrarse con >. </destacar></p>***                                             │
+La raíz (documento) debe ser único, pero se repite multiples veces.                      │
+La tag imagen no se cierra.                             │
+___________________________________________________________________________________________________│
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+<!--
+Documento1
+-->
+    <documento> 
+    <p>Mi Primer 
+        <destacar importancia="1">documento 
+    XML</destacar>
+    </p> 
+    <p>Comienza con la etiqueta </p> 
+    <p>A continuacion colocamos un elemento sin contenido</p> 
+    <imagen fichero="imagen.gif"> </imagen>
+</documento>
+<!--
+Documento2
+-->
+<libros> 
+<libro id="quijote"> 
+<titulo>El Quijote</titulo> 
+<autor nombre="cervantes" > </autor>
+<descripcion>Es el mejor libro de cervantes.</descripcion> 
+</libro>
+</libros>
+</xs:schema>
+<!--
+Documento 2
+<?xml version="1.0"?>
+<libros>
+<libro id="quijote">
+<titulo>El Quijote</titulo>
+<autor nombre=cervantes nombre=cervantes>
+<descripcion>Es el m<ejor libro de cervantes.</descripcion>
+</libro]
+</Libros>
+
+_______________________________________________________________________________________
+"cervantes" es un atributo de nombre y deberia ir entre comillas. nombre="cervantes"***│
+Hay atributos repetidos. <autor nombre=cervantes>***                                   │
+La tag de autor no esta cerrada.                                                       │
+La raiz cierra como </Libros>. </libros>***                                            │
+Una tag de cierre termina con ]. </libro>***                                           │
+_______________________________________________________________________________________│
+-->

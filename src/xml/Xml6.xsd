@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+   <Factura> 
+    <titulo>
+        <destacar importancia="1">
+            FACTURA
+        </destacar>
+    </titulo>
+    <imagen fichero="imagen.jpg"> </imagen>
+    <BussinesContanctInformation>
+                  <NombreDelNegocio>Tesla</NombreDelNegocio>
+                  <Direccion>13101 de Harold Green Road</Direccion>
+                  <CiudadEstadoCP>Austin, Texas, 78725</CiudadEstadoCP>
+                  <Telefono>+1 512-457-1111</Telefono>
+                  <Website>https://www.tesla.com/</Website>
+    </BussinesContanctInformation>
+    <BillTo>
+                  <NombreDelCliente>Walter Alejandro Juvera Rodriguez</NombreDelCliente>
+                  <Direccion>Madroño #23 de Urbi villa del cedros</Direccion>
+                  <CiudadEstadoCP>Hermosillo, Sonora, 83105</CiudadEstadoCP>
+    </BillTo>
+    <ShipTo>
+                  <NombreDelCliente>Walter Alejandro Juvera Rodriguez</NombreDelCliente>
+                  <Direccion>Madroño #23 de Urbi villa del cedros</Direccion>
+                  <CiudadEstadoCP>Hermosillo, Sonora, 83105</CiudadEstadoCP>
+    </ShipTo>
+    <Detalles_Factura>
+                  <Numero_Factura> #1925671761 </Numero_Factura>
+                  <Fecha_Factura> 10/21/2022 </Fecha_Factura>
+                  <Terminos> Net 30 </Terminos>
+                  <Fecha_Pago> 10/21/2022 </Fecha_Pago>
+    </Detalles_Factura>
+    <Descripcion_BienesYServicios> 
+        <BienesYServicios>
+            <Producto_Servicio> ***** </Producto_Servicio> 
+            <Descripcion> ***** </Descripcion>
+            <Qty_hrs> 0 <Qty_hrs> 
+            <Frecuencia> 0 <Frecuencia>
+            <Cantidad> 0 <Cantidad>
+        </BienesYServicios>  
+        <BienesYServicios>
+            <Producto_Servicio> ***** </Producto_Servicio> 
+            <Descripcion> ***** </Descripcion>
+            <Qty_hrs> 0 <Qty_hrs> 
+            <Frecuencia> 0 <Frecuencia>
+            <Cantidad> 0 <Cantidad>
+        </BienesYServicios>      
+    </Descripcion_BienesYServicios>
+    <Añadir>
+        <destacar importancia="2">
+           Añadir objeto? +
+        </destacar>
+    </Añadir>
+    <Final>
+        <Mensaje>
+        Hello!
+        Thank for you purchase.Please
+        return the invoice with payment.
+        Thanks!
+        </Mensaje>
+        <Subtotal>$******.**<Subtotal>
+        <Impuestos>$***.**<Impuestos>
+        <Envio>$**.**<Envio>
+        <Total>
+           <destacar importancia="3">
+              Total: $******.**
+           </destacar>
+        </Total>  
+    </Final>      
+   </Factura>
+</xs:schema>

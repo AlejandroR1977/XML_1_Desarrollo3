@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+<PEDIDO>
+    <Destinatario>Juan Delgado Martínez</Destinatario>
+    <Articulo>Bicicleta Bianchi Oltre</Articulo>
+    <Direccion>calle Reforma423, tercer piso, letra A</Direccion>
+    <Fecha>19-09-2021</Fecha>
+</PEDIDO>
+</xs:schema>
