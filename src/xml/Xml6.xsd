@@ -29,9 +29,9 @@
     </ShipTo>
     <Detalles_Factura>
                   <Numero_Factura> #1925671761 </Numero_Factura>
-                  <Fecha_Factura> 10/21/2022 </Fecha_Factura>
+                  <type date: "Fecha_Factura"> 2022/10/21 </Fecha_Factura>
                   <Terminos> Net 30 </Terminos>
-                  <Fecha_Pago> 10/21/2022 </Fecha_Pago>
+                  <type date: "Fecha_Pago"> 2022/10/21 </Fecha_Pago>
     </Detalles_Factura>
     <Descripcion_BienesYServicios> 
         <BienesYServicios>
